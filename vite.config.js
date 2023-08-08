@@ -10,7 +10,7 @@ export default defineConfig(({ command, mode }) => {
   const detailProxyOptions = {
     "/api": {
       target: "https://tr-yös.com",
-      port: 5173,
+      port: tr-yos-4-ten.vercel.app,
       changeOrigin: true,
       // rewrite: (path) => path.replace(/^\/api/, ""),
     },
